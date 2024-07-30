@@ -25,6 +25,9 @@ public class MergeSort {
        mergeSorter(a);mergeSorter(b);
        //Merge a&b(two sorted arrays)
        Merger(a, b, arr);
+       //Delete a and b to improve Space complexity
+       a=null;
+       b=null;
     }
     public static void main(String[] args) {
         int[] arr = {80,30,50,20,60,70,40};
